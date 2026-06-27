@@ -212,7 +212,7 @@ function App() {
 
       </section>
 
-      <section className="services">
+      <section id="services" className="services">
 
         <h4>OUR SERVICES</h4>
 
@@ -270,7 +270,7 @@ function App() {
 
 
 
-      <section className="choose-us">
+      <section id="choose-us" className="choose-us">
 
         <h4>WHY CHOOSE US</h4>
 
@@ -317,7 +317,7 @@ function App() {
 
       </section>
 
-      <section className="about-us">
+      <section id="about" className="about-us">
 
         <h4>ABOUT US</h4>
 
@@ -351,7 +351,7 @@ function App() {
 
       </section>
 
-      <section className="testimonials">
+      <section id="testimonials" className="testimonials">
 
         <h4>TESTIMONIALS</h4>
 
@@ -423,7 +423,7 @@ function App() {
 
       </section>
 
-      <section className="cta-section">
+      <section id="quote" className="cta-section">
 
         <h2>
           Plan Your Move Today – Stress Free Shifting Guaranteed
@@ -436,8 +436,7 @@ function App() {
 
       </section>
 
-      <footer className="footer">
-
+      <footer id="contact" className="footer">
         <div className="footer-container">
 
           <div className="footer-box">
@@ -472,11 +471,15 @@ function App() {
 
             <h3>Quick Links</h3>
 
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
 
-            <a href="#">Services</a>
+            <a href="#services">Services</a>
 
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+
+            <a href="#testimonials">Testimonials</a>
+
+            <a href="#contact">Contact</a>
 
           </div>
 
