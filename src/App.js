@@ -118,9 +118,9 @@ function App() {
           </div>
 
           {/* RIGHT */}
-          <a href="tel:9500907313" className="call-btn">
+          <a href="tel:8003907313" className="call-btn">
             <FaPhoneAlt />
-            9500907313
+            8003907313
           </a>
         </div>
       </header>
@@ -148,7 +148,7 @@ function App() {
               Get Free Quote
             </button>
 
-            <a href="tel:9500907313" className="call-outline-btn">
+            <a href="tel:8003907313" className="call-outline-btn">
               Call Now
             </a>
 
@@ -429,7 +429,7 @@ function App() {
           Plan Your Move Today – Stress Free Shifting Guaranteed
         </h2>
 
-        <a href="tel:9500907313" className="cta-btn">
+        <a href="tel:8003907313" className="cta-btn">
           <FaPhoneAlt />
           Call Now
         </a>
@@ -458,7 +458,7 @@ function App() {
 
             <p>
               <FaPhoneAlt />
-              9500907313
+              8003907313
             </p>
 
             <p>
