@@ -99,7 +99,7 @@ function App() {
 
   return (
     <>
-      <header>
+      <header id="home">
 
         <div className="header-container">
 
@@ -212,7 +212,7 @@ function App() {
 
       </section>
 
-      <section className="services">
+      <section id="services" className="services">
 
         <h4>OUR SERVICES</h4>
 
@@ -270,54 +270,95 @@ function App() {
 
 
 
-      <section className="choose-us">
+   <section id="choose-us" className="choose-us">
 
-        <h4>WHY CHOOSE US</h4>
+  <h4>WHY CHOOSE US</h4>
 
-        <h2>The Prestige Advantage</h2>
+  <h2>The Prestige Advantage</h2>
 
-        <div className="choose-container">
+  <p className="choose-desc">
+    Prestige Relocation Packers & Movers is committed to providing safe,
+    affordable and hassle-free relocation services with professional packing,
+    secure transportation and timely delivery across India.
+  </p>
 
-          <div className="choose-card">
-            <div className="icon-box">
-              <FaShieldAlt />
-            </div>
-            <h3>Safe Packing</h3>
-          </div>
+  <div className="choose-container">
 
-          <div className="choose-card">
-            <div className="icon-box">
-              <FaClock />
-            </div>
-            <h3>Timely Delivery</h3>
-          </div>
+    <div className="choose-card">
 
-          <div className="choose-card">
-            <div className="icon-box">
-              <FaRupeeSign />
-            </div>
-            <h3>Affordable Pricing</h3>
-          </div>
+      <div className="icon-box">
+        <FaShieldAlt />
+      </div>
 
-          <div className="choose-card">
-            <div className="icon-box">
-              <FaUsers />
-            </div>
-            <h3>Experienced Team</h3>
-          </div>
+      <h3>Safe Packing</h3>
 
-          <div className="choose-card">
-            <div className="icon-box">
-              <FaCheckCircle />
-            </div>
-            <h3>Damage-Free Guarantee</h3>
-          </div>
+      <p>
+        Premium quality packing materials keep your belongings safe during every move.
+      </p>
 
-        </div>
+    </div>
 
-      </section>
+    <div className="choose-card">
 
-      <section className="about-us">
+      <div className="icon-box">
+        <FaClock />
+      </div>
+
+      <h3>Timely Delivery</h3>
+
+      <p>
+        We value your time and ensure every shipment reaches on schedule.
+      </p>
+
+    </div>
+
+    <div className="choose-card">
+
+      <div className="icon-box">
+        <FaRupeeSign />
+      </div>
+
+      <h3>Affordable Pricing</h3>
+
+      <p>
+        Transparent pricing with no hidden charges and competitive rates.
+      </p>
+
+    </div>
+
+    <div className="choose-card">
+
+      <div className="icon-box">
+        <FaUsers />
+      </div>
+
+      <h3>Experienced Team</h3>
+
+      <p>
+        Skilled professionals handle packing, loading and transportation safely.
+      </p>
+
+    </div>
+
+    <div className="choose-card">
+
+      <div className="icon-box">
+        <FaCheckCircle />
+      </div>
+
+      <h3>Damage-Free Guarantee</h3>
+
+      <p>
+        We take every precaution to ensure damage-free relocation services.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+      <section id="about" className="about-us">
 
         <h4>ABOUT US</h4>
 
@@ -351,7 +392,7 @@ function App() {
 
       </section>
 
-      <section className="testimonials">
+      <section id="testimonials" className="testimonials">
 
         <h4>TESTIMONIALS</h4>
 
@@ -436,7 +477,59 @@ function App() {
 
       </section>
 
-      <footer className="footer">
+      <section className="service-locations">
+
+        <div className="service-location-container">
+
+          <h4>OUR SERVICE LOCATIONS</h4>
+
+          <h2>Packers & Movers Across India</h2>
+
+          <p className="location-desc">
+            We provide reliable packing, moving, vehicle transportation and relocation
+            services across major cities in India with safe packing, timely delivery
+            and affordable pricing.
+          </p>
+
+          <div className="city-grid">
+
+            <span>Chennai</span>
+            <span>Bengaluru</span>
+            <span>Hyderabad</span>
+            <span>Mumbai</span>
+            <span>Pune</span>
+
+            <span>Delhi</span>
+            <span>Noida</span>
+            <span>Gurugram</span>
+            <span>Jaipur</span>
+            <span>Ahmedabad</span>
+
+            <span>Surat</span>
+            <span>Kolkata</span>
+            <span>Kochi</span>
+            <span>Coimbatore</span>
+            <span>Madurai</span>
+
+            <span>Tiruchirappalli</span>
+            <span>Visakhapatnam</span>
+            <span>Vijayawada</span>
+            <span>Lucknow</span>
+            <span>Chandigarh</span>
+
+            <span>Nagpur</span>
+            <span>Indore</span>
+            <span>Bhopal</span>
+            <span>Goa</span>
+            <span>Mysuru</span>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <footer id="contact" className="footer">
 
         <div className="footer-container">
 
@@ -472,7 +565,17 @@ function App() {
 
             <h3>Quick Links</h3>
 
-           
+            <a href="#home">Home</a>
+
+            <a href="#services">Services</a>
+
+            <a href="#choose-us">Why Choose Us</a>
+
+            <a href="#about">About Us</a>
+
+            <a href="#testimonials">Testimonials</a>
+
+            <a href="#contact">Contact</a>
 
           </div>
 
@@ -485,6 +588,7 @@ function App() {
         </p>
 
       </footer>
+
     </>
 
 
